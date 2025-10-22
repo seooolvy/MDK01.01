@@ -10,6 +10,9 @@ class RectangleProgram
         double b = double.Parse(Console.ReadLine());
 
         double P = 2 * (a + b);
+        double S = a * b;
+
         Console.WriteLine($"Периметр: {P}");
+        Console.WriteLine($"Площадь: {S}");
     }
 }
